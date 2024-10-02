@@ -78,23 +78,31 @@ export default function Restaurant() {
           { Image: 'discount system', title: 'Discount System' },
           { Image: 'delivery', title: 'Fast Delivery' }
         ].map((service, index) => (
-          <div key={index} className="text-center">
+          <div key={index} className="text-center mt-8">
             <Image src={`/images/${service.Image}.png`} className="mx-auto" alt={service.title} width={100} height={100} />
             <h1 className="mt-2">{service.title}</h1>
           </div>
         ))}
       </div>
 
-      <div className="text-center mt-8">
+      <div className="text-center mt-8 p-6">
         <p>Testimonials</p>
         <h1 className="font-bold text-3xl md:text-4xl mt-2">What Our Clients Say</h1>
         <p className="mx-auto w-11/12 md:w-3/4 lg:w-1/2 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div className="flex flex-wrap justify-center gap-4 mt-8">
-        {['mitch', 'Peter', 'Benjamin', 'Adam', 'John'].map((person, index) => (
-          <Image key={index} src={`/images/${person}.jpeg`} className="w-24 md:w-32 lg:w-40" alt={person} width={100} height={100} />
-        ))}
-      </div>
+  {['mitch', 'Peter', 'Benjamin', 'Adam', 'John'].map((person, index) => (
+    <Image 
+      key={index} 
+      src={`/images/${person}.jpeg`} 
+      className="w-24 md:w-32 lg:w-40 rounded-full"
+      alt={person} 
+      width={100} 
+      height={100} 
+    />
+  ))}
+</div>
+
       <div className="text-center mt-4">
         <p className="font-bold text-2xl md:text-4xl">Mitchell Marsh</p>
         <p>CEO, Bexon Agency</p>

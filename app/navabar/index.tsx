@@ -20,7 +20,7 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* Desktop menu */}
+              
                 <div className="hidden md:flex gap-16 my-8 text-[20px]">
                     <a className="text-[#FFC624]" href="#">HOME</a>
                     <a href="#">RESTAURANT</a>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 <p className="hidden md:block my-8 text-[20px]"><a href="#">Sign In</a></p>
             </div>
 
-            {/* Mobile menu */}
+           
             {isOpen && (
                 <div className="md:hidden">
                     <div className="flex flex-col items-center gap-4 py-4 bg-white shadow-lg">
