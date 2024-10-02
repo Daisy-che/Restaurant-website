@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Restaurant() {
   return (
-    <main className="font-serif">
+    <main className="font-serif text-2xl">
       <div className="flex flex-col md:flex-row bg-[#fff9ef] p-4 md:p-8 gap-4 md:gap-96">
   <div className="mx-4 md:mx-[100px] mt-4 md:mt-[5%] mr-2 md:mr-[10px]">
     <h1 className="font-bold text-3xl md:text-5xl">Enjoy Delicious</h1>

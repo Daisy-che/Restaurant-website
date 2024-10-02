@@ -10,10 +10,10 @@ const Navbar = () => {
 
     return (
         <main>
-            <div className="flex justify-between items-center font-serif px-4 md:px-8">
+            <div className="flex justify-between items-center font-serif px-4 md:px-8 text-2xl">
                 <h2 className="text-[#FFC624] my-8 text-[20px] italic">food house</h2>
                 
-                {/* Hamburger menu icon for mobile */}
+                
                 <div className="md:hidden">
                     <button onClick={toggleMenu}>
                         {isOpen ? <X size={24} /> : <Menu size={24} />}
