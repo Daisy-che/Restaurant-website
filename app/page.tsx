@@ -7,14 +7,14 @@ export default function Home() {
       <Navbar />
       
     
-      <div className="flex flex-col md:flex-row bg-[#fff9ef] p-4 md:p-8">
+      <div className="flex flex-col md:flex-row bg-[#fff9ef] p-4 md:p-8 ">
         <div className="mx-4 md:mx-[100px] mt-4 md:mt-[5%] mr-2 md:mr-[10px]">
           <h1 className="font-bold text-3xl md:text-5xl">Enjoy Delicious</h1>
           <h1 className="font-bold text-3xl md:text-5xl">Food in <b className="text-[#FFC624]">Healthy Life</b></h1>
           <p className="w-full md:w-10/12 mt-4">Tandoori masala is an Indian spice blend consisting of a variety of spices.</p>
           <button className="my-4 md:my-[60px] bg-yellow-500 text-neutral-100 w-60 md:min-w-[200px] text-amber-500 min-h-[65px] text-xl md:text-[25px] rounded-lg">ORDER NOW</button>
         </div>
-        <img src="/images/chickenn.png" className="w-full md:w-auto md:pr-[10%] mt-4 md:mt-0" alt="Chicken dish" />
+        <img src="/images/chickenn.png" className="w-full md:w-auto  mt-4 md:mt-0" alt="Chicken dish" />
       </div>
 
       
@@ -128,7 +128,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Newsletter Section */}
+    
       <div className="bg-[#fff9ef] py-8">
         <div className="flex flex-col md:flex-row justify-between items-center mx-4 md:mx-[100px]">
           <div className="mb-4 md:mb-0">
@@ -146,13 +146,13 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Footer */}
+   
       <div className="bg-[#180606] text-white py-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-40">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 px-4 md:px-40 text-center">
           <div>
             <h1 className="font-bold text-2xl mb-4">FoodHouse</h1>
-            <p className="mb-4">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
-            <img src="/images/icons.png" alt="Social icons" />
+            <p className="w-60 ml-10">Best cooks and best delivery guys all at your service.Hottastyfood will reach you in 60minutes.</p>
+            <img src="/images/icons.png" alt="Social icons" className='ml-10'/>
           </div>
           <div>
             <p className="font-bold text-2xl mb-4">Company</p>
